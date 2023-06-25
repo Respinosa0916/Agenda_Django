@@ -1,0 +1,43 @@
+
+input {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--color-text);
+    padding: 5px;
+    width: 100%;
+}
+
+.btn-send {
+    width: 81%;
+    background-color: var(--color-primary);
+    color: white;
+    border: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-wraper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alert-succes {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(48, 140, 17);
+    color: white;
+}
+
+.aux-btn-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.aux-btn-form a {
+    padding-right: 10px;
+    text-decoration: none;
+}
